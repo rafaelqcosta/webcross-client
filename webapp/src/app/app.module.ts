@@ -1,3 +1,4 @@
+import { AppBootstrapModule } from './app.bootstrap.module';
 import { AppRoutingModule } from './app.routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,8 @@ import { ManterHoraComponent } from './views/manter-hora/manter-hora.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AppBootstrapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
