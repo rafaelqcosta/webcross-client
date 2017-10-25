@@ -1,1 +1,7 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+.menu-esquedo{
+  margin-left: 10px;
+  width: 300px;
+  height: 100%;
+}
